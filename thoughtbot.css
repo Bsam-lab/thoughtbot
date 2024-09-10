@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head
+{
+    display: flex;
+    margin-top: 20px;
+}
+.img1
+{
+    width: 200px;
+   padding-left: 3rem;
+}
+.firsta
+{
+   padding-left: 20rem;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-decoration: none;
+}
+.seconda
+{
+    padding-left: 2rem;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-decoration: none;
+}
+.thirda
+{
+    padding-left: 2rem;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   text-decoration: none;
+}
+.fourtha
+{
+    padding-left: 2rem;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-decoration: none;
+}
+.firstbutton
+{
+    margin-left: 20rem;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 18px;
+   width: 150px;
+   height: 40px;
+}
+.seconddiv
+{
+    margin-top: 200px;
+    padding: 3rem;
+    display: flex;
+}
+.firsth1
+{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 61px;
+    color: #29292c;
+}
+.img2
+{
+    width: 900px;
+    padding-left: 300px;
+}
+.thirddiv
+{
+    width: 600px;
+  padding: 2rem;
+  
+}
+.firstp
+{
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #494a51;
+    text-align: left;
+}
+.secondbutton
+{
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 18px;
+   width: 150px;
+   height: 40px;
+}
+.fourthdiv
+{
+    padding: 2rem;
+}
+@media screen and (max-width:767px) {
+    .head{
+        flex-direction: column;
+    }
+    
+}
